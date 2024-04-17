@@ -8,6 +8,7 @@ import film from '../src/assets/images/film.svg'
 import Grupo3 from '../src/assets/images/Grupo 3.svg'
 import Grupo2 from '../src/assets/images/Grupo 2.svg'
 import Grupo546 from '../src/assets/images/Grupo 546.svg'
+import Grupo5462 from '../src/assets/images/Grupo 5462.svg'
 import dropbox1 from '../src/assets/images/dropbox-1.svg'
 import Grupo5 from '../src/assets/images/Grupo 5.png'
 import Imagen1 from '../src/assets/images/Imagen 1.png'
@@ -121,14 +122,14 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className='bg-[#373737] pt-48 text-white flex flex-col items-center'>
-        <div className='flex flex-row w-full max-w-[1350px] justify-around'>
+      <div className='bg-[#373737] pt-20 lg:pt-48 text-white flex flex-col items-center'>
+        <div className='flex flex-col items-center lg:flex-row w-full max-w-[1350px] justify-around'>
           <div className='w-1/3 max-w-80'>
-            <div className='text-[72px] font-OwnersNarrowBold tracking-[1.44px] leading-tight'>NUESTRO PROCESO EN POCAS PALABRAS</div>
-            <div className='text-lg font-ScandiaRegular'>Hacemos que lo complejo parezca sencillo en muy pocos pasos.</div>
+            <div className='text-[72px] text-center lg:text-start font-OwnersNarrowBold tracking-[1.44px] leading-tight'>NUESTRO PROCESO EN POCAS PALABRAS</div>
+            <div className='text-lg text-center lg:text-star font-ScandiaRegular'>Hacemos que lo complejo parezca sencillo en muy pocos pasos.</div>
           </div>
-          <div className='w-2/3'>
-            <div className='flex justify-around mt-5'>
+          <div className='lg:w-2/3'>
+            <div className='flex flex-col items-center md:flex-row gap-16 md:gap-8 md:justify-around mt-16 lg:mt-5'>
               <div className='flex flex-col justify-center'>
                 <div className='self-center'><img width={55} height={51} src={checks} alt="" /></div>
                 <div className='flex items-center gap-2.5'>
@@ -154,7 +155,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='flex justify-center gap-20 mt-16'>
+            <div className='flex flex-col items-center md:flex-row justify-center gap-16 md:gap-20 mt-16'>
               <div className='flex flex-col justify-center'>
                 <div className='self-center'><img width={59} height={51} src={Grupo3} alt="" /></div>
                 <div className='flex items-center gap-2.5'>
@@ -180,13 +181,21 @@ export const Home = () => {
         <div className='text-[56px] font-OwnersNarrowBold'>USAMOS LA MEJOR TECNOLOGÍA PARA</div>
       </div> */}
 
-      <div className='bg-[#373737] flex-row relative inline-block text-center pt-32'>
-        <img src={Grupo546} height={180} className='absolute w-screen h-[180px] px-10' alt="waves" />
-        <div className='w-screen h-[90px] text-center flex justify-center items-end bg-[#373737] text-[#EFECE8] text-[50px] font-OwnersNarrowBold'>
+      <div className='bg-[#373737] flex-row relative inline-block text-center pt-10 lg:pt-32'>
+        <img src={Grupo546} height={180} className='hidden md:flex absolute  h-[180px] px-10' alt="waves" />
+        <img src={Grupo5462} height={180} className='md:hidden absolute h-[180px] px-10' alt="waves" />
+        <div className=' hidden lg:flex justify-center w-screen h-[90px] text-center items-end bg-[#373737] text-[#EFECE8] text-4xl 2xl:text-[50px] font-OwnersNarrowBold'>
           USAMOS LA MEJOR TECNOLOGÍA PARA
         </div>
-        <div className='text-center h-[90px] bg-[#EFECE8] text-[#373737] text-[50px] font-OwnersNarrowBold'>
+        <div className='hidden lg:flex justify-center text-center h-[90px] bg-[#EFECE8] text-[#373737] text-4xl 2xl:text-[50px] font-OwnersNarrowBold'>
           HACER DE TUS VIDEOS UNA OBRA DE ARTE
+        </div>
+        
+        <div className='  lg:hidden flex justify-center w-screen h-[90px] text-center items-end bg-[#373737] text-[#EFECE8] text-4xl 2xl:text-[50px] font-OwnersNarrowBold'>
+          &nbsp;
+        </div>
+        <div className=' lg:hidden flex justify-center text-center h-[90px] bg-[#EFECE8] text-[#373737] text-4xl 2xl:text-[50px] font-OwnersNarrowBold'>
+          &nbsp;
         </div>
       </div>
 
