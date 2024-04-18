@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import logo from '../src/assets/images/Asset 2@2x-1.png'
 import emailIconW from '../src/assets/images/envelope-at-fill.svg'
 import telephone from '../src/assets/images/telephone.svg'
-import whatsapp from '../src/assets/images/whatsapp.svg'
+import tiktok from '../src/assets/images/tiktok.svg'
 import facebook from '../src/assets/images/facebook.svg'
 import instagram from '../src/assets/images/instagram.svg'
 import linkedin from '../src/assets/images/linkedin.svg'
@@ -38,7 +38,7 @@ export const About = () => {
           <div className='h-0 w-8 border-[1.5px] border-white'></div>
         </div>
         {isPopupOpen && (
-          <div onMouseEnter={()=>setIsPopupOpen(true)} onMouseLeave={()=>setIsPopupOpen(false)} className="text-white px-12 py-8 bg-black font-semibold flex flex-col absolute top-[60px] gap-y-2 right-0 shadow-md">
+          <div onMouseEnter={()=>setIsPopupOpen(true)} onMouseLeave={()=>setIsPopupOpen(false)} className="text-white z-50 px-12 py-8 bg-black font-semibold flex flex-col absolute top-[60px] gap-y-2 right-0 shadow-md">
             <div><NavLink to="/" >Inicio</NavLink></div>
             <div><NavLink to="/about">Nosotros</NavLink></div>
             <div><NavLink to="/contact">Contacto</NavLink></div>
@@ -92,50 +92,50 @@ export const About = () => {
             <div className='px-10 text-lg'>Co-Fundadora y Gerente de <br />Marketing y Ventas</div>
           </div>
         </div>
-        <div className='text-[28px] px-4 sm:text-4xl lg:text-[70px] pb-1 lg:pb-5 mt-24 lg:mt-24 text-center font-OwnersNarrowBold tracking-[1.44px] leading-tight'>ESTAS SON ALGUNAS DE</div>
+        <div className='text-[28px] px-4 sm:text-4xl md:text-5xl xl:text-[70px] pb-1 lg:pb-5 mt-24 lg:mt-24 text-center font-OwnersNarrowBold tracking-[1.44px] leading-tight'>ESTAS SON ALGUNAS DE</div>
       </div>
 
       <div className='text-white pb-16 lg:pb-0 flex flex-col w-screen items-center bg-[#373737]'>
-        <div className='text-[28px] px-4 sm:text-4xl pt-1 lg:pt-5 lg:text-[70px] text-center font-OwnersNarrowBold tracking-[1.44px] leading-tight'>LAS RAZONES PARA ELEGIRNOS</div>
-        <div className='flex flex-col gap-y-16 lg:gap-y-0 lg:flex-row justify-around w-full max-w-[1350px] mt-24'>
+        <div className='text-[28px] px-4 sm:text-4xl pt-1 lg:pt-5 md:text-5xl xl:text-[70px] text-center font-OwnersNarrowBold tracking-[1.44px] leading-tight'>LAS RAZONES PARA ELEGIRNOS</div>
+        <div className='flex flex-col gap-y-16 gap-8 px-10 lg:gap-y-0 lg:flex-row justify-around w-full max-w-[1350px] mt-24'>
           <div className='flex flex-col items-center text-center'>
             <div><img width={81} src={book} alt="montage&life" /></div>
-            <div className='font-OwnersNarrowBold p-1 px-8 text-3xl lg:text-4xl bg-black text-center items-stretch text-white mt-11'>NARRACIÓN</div>
-            <div className='max-w-96 font-ScandiaRegular mt-9 px-8 lg:px-0'>
+            <div className='font-OwnersNarrowBold p-1 px-8 text-[32px] lg:text-[27px] xl:text-[32px] xl2:text-4xl bg-black text-center items-stretch text-white mt-11'>NARRACIÓN</div>
+            <div className='text-base max-w-96 font-ScandiaRegular mt-9 px-8 lg:px-0'>
               Nos dedicamos a tejer y estructurar diálogos para impulsar la
               <span className='font-bold'> narrativa</span> , siendo la columna vertebral de cada película de bodas que creamos.
             </div>
           </div>
           <div className='flex flex-col items-center text-center'>
             <div><img width={66} src={soundwave} alt="montage&life" /></div>
-            <div className='font-OwnersNarrowBold p-1.5 px-8 text-3xl lg:text-4xl bg-black text-center items-stretch text-white mt-12'>MÚSICA Y SONIDO</div>
-            <div className='max-w-[350px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
+            <div className='font-OwnersNarrowBold p-1.5 px-8 text-[32px] lg:text-[27px] xl:text-[32px] xl2:text-4xl bg-black text-center items-stretch text-white mt-12'>MÚSICA Y SONIDO</div>
+            <div className='text-base max-w-[350px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
               Utilizamos plugins de Inteligencia Artificial para resolver problemas de audio, y además, podrás seleccionar música con licencia de nuestra extensa biblioteca en
               <span className='font-bold'> Soundstripe</span>.
             </div>
           </div>
           <div className='flex flex-col items-center text-center'>
             <div><img width={81} src={palette} alt="montage&life" /></div>
-            <div className='font-OwnersNarrowBold p-1.5 px-8 text-3xl lg:text-4xl bg-black text-center items-stretch text-white mt-7'>CORRECCIÓN DEL COLOR</div>
-            <div className='max-w-[420px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
+            <div className='font-OwnersNarrowBold p-1.5 px-8 text-[32px] lg:text-[27px] xl:text-[32px] xl2:text-4xl bg-black text-center items-stretch text-white mt-7'>CORRECCIÓN DEL COLOR</div>
+            <div className='text-base max-w-[420px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
               Una corrección de color adecuada establece el tono perfecto para tu película. Mejoramos el aspecto de tus videos aplicando
               <span className='font-bold'> corrección de color</span>.
             </div>
           </div>
         </div>
-        <div className='flex flex-col gap-y-16 lg:gap-y-0 lg:flex-row justify-around w-full  max-w-[1350px] mt-16 lg:mt-24'>
+        <div className='flex flex-col px-10 gap-y-16 gap-8 lg:gap-y-0 lg:flex-row justify-around w-full  max-w-[1350px] mt-16 lg:mt-24'>
           <div className='flex flex-col items-center text-center'>
             <div><img width={81} src={sendArrow} alt="montage&life" /></div>
-            <div className='font-OwnersNarrowBold p-1 px-8 text-3xl lg:text-4xl bg-black text-center items-stretch text-white mt-12'>FACILIDAD DE USO</div>
-            <div className='max-w-[410px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
+            <div className='font-OwnersNarrowBold p-1 px-8 text-[32px] lg:text-[27px] xl:text-[32px] xl2:text-4xl bg-black text-center items-stretch text-white mt-12'>FACILIDAD DE USO</div>
+            <div className='text-base max-w-[410px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
               Cada cliente tiene una carpeta única en nuestro
               <span className='font-bold'> Dropbox</span> que le compartimos. De esta manera solo tendrás que arrastrar tus carpetas y estaremos más que listos para trabajar.
             </div>
           </div>
           <div className='flex flex-col items-center text-center'>
             <div><img width={61} src={fileEarmark} alt="montage&life" /></div>
-            <div className='font-OwnersNarrowBold p-1.5 px-8 text-3xl lg:text-4xl bg-black text-center items-stretch text-white mt-12'>CONFIDENCIALIDAD</div>
-            <div className='max-w-[390px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
+            <div className='font-OwnersNarrowBold p-1.5 px-8 text-[32px] lg:text-[27px] xl:text-[32px] xl2:text-4xl bg-black text-center items-stretch text-white mt-12'>CONFIDENCIALIDAD</div>
+            <div className='text-base max-w-[390px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
               Apoyamos totalmente los acuerdos de
               <span className='font-bold'> confidencialidad</span>.
               Entendemos que algunos clientes desean mantener en secreto la identidad de nuestros talentosos editores frente a competidores y clientes potenciales.
@@ -143,8 +143,8 @@ export const About = () => {
           </div>
           <div className='flex flex-col items-center text-center'>
             <div><img width={81} src={cashStack} alt="montage&life" /></div>
-            <div className='font-OwnersNarrowBold p-1.5 px-8 text-3xl lg:text-4xl bg-black text-center items-stretch text-white mt-[70px]'>CRECIMIENTO EMPRESARIAL</div>
-            <div className='max-w-[410px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
+            <div className='font-OwnersNarrowBold p-1.5 px-2 text-[32px] lg:text-[26.5px] xl:text-[32px] xl2:text-4xl bg-black text-center items-stretch text-white mt-[70px]'>CRECIMIENTO EMPRESARIAL</div>
+            <div className='text-base max-w-[410px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
               Al confiarnos sus necesidades de edición, podrá liberar
               <span className='font-bold'> tiempo para enfocarse </span>
               en otras áreas importantes, como la comercialización de su negocio y la captación de más clientes.
@@ -168,10 +168,12 @@ export const About = () => {
         <div className='text-center text-base lg:text-lg font-ScandiaRegular mt-4 self-center max-w-[290px] lg:max-w-[477px]'>
           Por favor, contáctenos para obtener información sobre nuestros precios y paquetes, así como para solicitar nuestro portafolio.
         </div>
-        <div className='flex justify-center w-72 lg:w-96 h-16 rounded-lg self-center bg-black align-middle text-center text-2xl font-ScandiaRegular mt-[42px]'>
-          <img width={43.5} height={43.5} src={wspIcon} alt="" />
-          <p className='text-4xl ml-3 self-center text-white font-OwnersNarrowBold'>CLIC AQUÍ</p>
-        </div>
+        <a href="https://wa.me/51922661867?text=Hola Montage %26 Life " className='flex justify-center ' target="_blank" rel="noreferrer">
+          <div className='flex justify-center w-72 lg:w-96 h-16 rounded-lg self-center bg-black align-middle text-center text-2xl font-ScandiaRegular mt-[42px]'>
+            <img width={43.5} height={43.5} src={wspIcon} alt="" />
+            <p className='text-4xl ml-3 self-center text-white font-OwnersNarrowBold'>CLIC AQUÍ</p>
+          </div>
+        </a>
         <div className='text-center text-lg font-ScandiaRegular mt-[40px]'>O escríbenos al</div>
         <div className='flex justify-center w-96 h-16 self-center align-middle text-center text-2xl font-ScandiaRegular mt-[42px] mb-32'>
           <img width={30} height={26} src={emailIcon} alt="" />
@@ -179,17 +181,17 @@ export const About = () => {
         </div>
       </div>
 
-      <div className='flex flex-col gap-y-16 md:flex-row w-screen items-center md:items-start justify-around text-lg bg-[#373737] text-white pt-12 pb-11'>
+      <div className='flex flex-col gap-y-16 lg:flex-row w-screen items-center lg:items-start justify-around text-lg bg-[#373737] text-white pt-12 pb-11'>
         <div className='flex flex-col'>
           <img width={186} src={logo} alt="montage&life" />
-          <div className='hidden md:flex pt-36 text-sm'>&#169; Montage&Life Posthouse 2024</div>
+          <div className='hidden lg:flex pt-36 text-sm'>&#169; Montage&Life Posthouse 2024</div>
         </div>
         <div>
           <div className='flex  justify-start gap-5 font-ScandiaRegular'>
             <img src={emailIconW} alt="" />
             <div>team@montageandlife.com</div>
           </div>
-          <div className='flex  justify-start gap-5 mt-6 font-ScandiaRegular'>
+          <div className='flex  justify-center gap-5 mt-6 font-ScandiaRegular'>
             <img src={telephone} alt="" />
             <div>(+51) 922 661 867</div>
           </div>
@@ -197,10 +199,10 @@ export const About = () => {
         <div>
           <div className='font-ScandiaRegular'>Síguenos y contáctanos en</div>
           <div className='flex gap-6 mt-5'>
-            <img width={42} src={whatsapp} alt="" />
-            <img width={42} src={facebook} alt="" />
-            <img width={42} src={instagram} alt="" />
-            <img width={42} src={linkedin} alt="" />
+            <a href="https://www.tiktok.com/@montageandlife" target="_blank" rel="noreferrer"><img width={37} src={tiktok} alt="https://www.tiktok.com/@montageandlife" /></a>
+            <a href="https://www.facebook.com/profile.php?id=61556244161284" target="_blank" rel="noreferrer"><img width={42} src={facebook} alt="https://www.facebook.com/profile.php?id=61556244161284" /></a>
+            <a href="https://www.instagram.com/montageandlife" target="_blank" rel="noreferrer"><img width={42} src={instagram} alt="https://www.instagram.com/montageandlife" /></a>
+            <a href="https://www.linkedin.com/company/montageandlife" target="_blank" rel="noreferrer"><img width={42} src={linkedin} alt="https://www.linkedin.com/company/montageandlife" /></a>
           </div>
         </div>
         <div className='flex md:hidden text-sm'>&#169; Montage&Life Posthouse 2024</div>
