@@ -1,5 +1,5 @@
 import logo from '../src/assets/images/Asset 2@2x-1.png'
-import panel from '../src/assets/images/Grupo 549.png'
+import panel from '/assets/images/Grupo 549.png'
 import wspIcon from '../src/assets/images/whatsapp-1.svg'
 import emailIcon from '../src/assets/images/envelope-at-fill-2.svg'
 import checks from '../src/assets/images/ui-checks.svg'
