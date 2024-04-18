@@ -77,7 +77,7 @@ export const Home = () => {
           ></iframe>
         </div>
         <div className='text-center text-2xl font-ScandiaRegular mt-10 lg:mt-[73px]'>Contáctanos</div>
-        <a href="https://wa.me/51922661867?text=Hola Montage %26 Life " className='flex justify-center ' target="_blank" rel="noreferrer">
+        <a href="https://wa.me/message/EAHIY7LXB5AQB1" className='flex justify-center ' target="_blank" rel="noreferrer">
           <div className='flex justify-center w-[281px] md:w-96 h-16 rounded-lg self-center bg-black align-middle text-center text-2xl font-ScandiaRegular mt-[42px]'>
             <img width={43.5} height={43.5} src={wspIcon} alt="" />
             <p className='text-4xl ml-3 self-center text-white font-OwnersNarrowBold'>CLIC AQUÍ</p>
@@ -196,7 +196,7 @@ export const Home = () => {
           &nbsp;
         </div>
       </div>
-      <div className='text-center text-[#373737]  pt-28 bg-[#EFECE8]  flex flex-col items-center'>
+      <div className='text-center text-[#373737]  pt-28 bg-[#EFECE8] -mb-1  flex flex-col items-center'>
           <div className='text-[22px] lg:hidden font-OwnersNarrowBold'>USAMOS LA MEJOR TECNOLOGÍA PARA</div>
           <div className='text-[22px] lg:hidden font-OwnersNarrowBold'>HACER DE TUS VIDEOS UNA OBRA DE ARTE</div>
       </div>
@@ -359,7 +359,7 @@ export const Home = () => {
         <div className='text-center text-base md:text-lg font-ScandiaRegular mt-4 self-center md:w-[477px] px-12'>
           Por favor, contáctenos para obtener información sobre nuestros precios y paquetes, así como para solicitar nuestro portafolio.
         </div>
-        <a href="https://wa.me/51922661867?text=Hola Montage %26 Life " className='flex justify-center ' target="_blank" rel="noreferrer">
+        <a href="https://wa.me/message/EAHIY7LXB5AQB1" className='flex justify-center ' target="_blank" rel="noreferrer">
           <div className='flex justify-center w-72 md:w-96 h-16 rounded-lg self-center bg-black align-middle text-center text-2xl font-ScandiaRegular mt-[42px]'>
             <img width={43.5} height={43.5} src={wspIcon} alt="" />
             <p className='text-4xl ml-3 self-center text-white font-OwnersNarrowBold'>CLIC AQUÍ</p>

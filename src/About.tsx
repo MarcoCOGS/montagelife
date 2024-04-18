@@ -168,7 +168,7 @@ export const About = () => {
         <div className='text-center text-base lg:text-lg font-ScandiaRegular mt-4 self-center max-w-[290px] lg:max-w-[477px]'>
           Por favor, contáctenos para obtener información sobre nuestros precios y paquetes, así como para solicitar nuestro portafolio.
         </div>
-        <a href="https://wa.me/51922661867?text=Hola Montage %26 Life " className='flex justify-center ' target="_blank" rel="noreferrer">
+        <a href="https://wa.me/message/EAHIY7LXB5AQB1" className='flex justify-center ' target="_blank" rel="noreferrer">
           <div className='flex justify-center w-72 lg:w-96 h-16 rounded-lg self-center bg-black align-middle text-center text-2xl font-ScandiaRegular mt-[42px]'>
             <img width={43.5} height={43.5} src={wspIcon} alt="" />
             <p className='text-4xl ml-3 self-center text-white font-OwnersNarrowBold'>CLIC AQUÍ</p>

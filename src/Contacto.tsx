@@ -52,7 +52,7 @@ export const Contacto = () => {
             Por favor, contáctenos para obtener información sobre nuestros precios y paquetes, así como para solicitar nuestro 
             <span className='font-bold'>&nbsp;portafolio.</span>
           </div>
-          <a href="https://wa.me/51922661867?text=Hola Montage %26 Life " className='flex justify-center ' target="_blank" rel="noreferrer">
+          <a href="https://wa.me/message/EAHIY7LXB5AQB1" className='flex justify-center ' target="_blank" rel="noreferrer">
             <div className='flex justify-center w-72 xl:w-96 h-16 rounded-lg self-center bg-black align-middle text-center text-2xl font-ScandiaRegular mt-6 lg:mt-[42px]'>
               <img width={43.5} height={43.5} src={wspIcon} alt="" />
               <p className='text-4xl ml-3 self-center text-white font-OwnersNarrowBold'>CLIC AQUÍ</p>
