@@ -252,7 +252,7 @@ export const Home = () => {
             </div>
           </div>
           <div className='lg:w-1/3 max-w-96 text-[#373737]'>
-            <div className='text-[62px] xl:text-[70px] lg:text-start font-OwnersNarrowBold tracking-[1.44px] leading-tight'>LLEVAMOS TUS VIDEOS A OTRO NIVEL.</div>
+            <div className='text-[62px] xl:text-[70px] lg:text-start font-OwnersNarrowBold tracking-[1.44px] leading-tight'>LLEVAMOS TUS VIDEOS A OTRO NIVEL</div>
             <div className='text-base xl:text-lg text-start font-ScandiaRegular mt-7'>Ahorra tiempo y dinero, pero a la vez aumenta la calidad de tus videos con la mejor tecnología en el mercado.</div>
           </div>
         </div>
