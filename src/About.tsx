@@ -128,8 +128,9 @@ export const About = () => {
             <div><img width={81} src={sendArrow} alt="montage&life" /></div>
             <div className='font-OwnersNarrowBold p-1 px-8 text-[32px] lg:text-[27px] xl:text-[32px] xl2:text-4xl bg-black text-center items-stretch text-white mt-12'>FACILIDAD DE USO</div>
             <div className='text-base max-w-[410px] font-ScandiaRegular mt-9 px-8 lg:px-0'>
-              Cada cliente tiene una carpeta única en nuestro
-              <span className='font-bold'> Dropbox</span> que le compartimos. De esta manera solo tendrás que arrastrar tus carpetas y estaremos más que listos para trabajar.
+              Buscamos hacer la transferencia de material lo más fácil posible. Puedes compartirlo con nosotros en Dropbox o Google Drive sin inconvenientes.
+              {/* Cada cliente tiene una carpeta única en nuestro
+              <span className='font-bold'> Dropbox</span> que le compartimos. De esta manera solo tendrás que arrastrar tus carpetas y estaremos más que listos para trabajar. */}
             </div>
           </div>
           <div className='flex flex-col items-center text-center'>

@@ -19,27 +19,8 @@ import tiktok from '../src/assets/images/tiktok.svg'
 import facebook from '../src/assets/images/facebook.svg'
 import instagram from '../src/assets/images/instagram.svg'
 import linkedin from '../src/assets/images/linkedin.svg'
-// import logo from './assets/images/Asset 2@2x-1.png'
-// import panel from './assets/images/Grupo 549.png'
-// import wspIcon from './assets/images/whatsapp-1.svg'
-// import emailIcon from './assets/images/envelope-at-fill-2.svg'
-// import checks from './assets/images/ui-checks.svg'
-// import dropbox from './assets/images/dropbox.svg'
-// import film from './assets/images/film.svg'
-// import Grupo3 from './assets/images/Grupo 3.svg'
-// import Grupo2 from './assets/images/Grupo 2.svg'
-// import Grupo546 from './assets/images/Grupo 546.svg'
-// import Grupo5462 from './assets/images/Grupo 5462.svg'
-// import dropbox1 from './assets/images/dropbox-1.svg'
-// import Grupo5 from './assets/images/Grupo 5.png'
-// import Imagen1 from './assets/images/Imagen 1.png'
-// import Grupo544 from './assets/images/Grupo 544.png'
-// import emailIconW from './assets/images/envelope-at-fill.svg'
-// import telephone from './assets/images/telephone.svg'
-// import tiktok from './assets/images/tiktok.svg'
-// import facebook from './assets/images/facebook.svg'
-// import instagram from './assets/images/instagram.svg'
-// import linkedin from './assets/images/linkedin.svg'
+import drive from '../src/assets/images/Google-Drive-Logo.png'
+
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -93,7 +74,7 @@ export const Home = () => {
             // width="963"
             // height="541"
             className='w-[963px] h-[60vw] lg:h-[541px]'
-            src={'https://www.youtube.com/embed/uUlwUw6qgXA'}
+            src={'https://www.youtube.com/embed/unRKhXjEwU0'}
             allowFullScreen
           ></iframe>
         </div>
@@ -205,7 +186,7 @@ export const Home = () => {
       </div> */}
 
       <div className='bg-[#373737] flex-row relative flex justify-center ml-[-10px] lg:inline-block text-center -mt-1 pt-10 lg:pt-36'>
-        <img src={Grupo546} height={180} className='hidden lg:flex absolute  h-[180px] px-10' alt="waves" />
+        <img src={Grupo546} height={180} className='hidden w-screen lg:flex absolute  h-[180px] px-10' alt="waves" />
         <img src={Grupo5462} height={180} className='lg:hidden absolute h-[140px] left justify-center ml-[-30px]' alt="waves" />
         <div className=' hidden lg:flex justify-center w-screen h-[90px] text-center items-end bg-[#373737] text-[#EFECE8] text-4xl 2xl:text-[50px] font-OwnersNarrowBold'>
           USAMOS LA MEJOR TECNOLOGÍA PARA
@@ -232,7 +213,7 @@ export const Home = () => {
           <div className='lg:w-2/3'>
             <div className='flex flex-col items-center md:flex-row gap-10 lg:gap-1 justify-around'>
               <div className='flex flex-col items-center'>
-                <div className='text-center'><img src={dropbox1} className='w-[110px]' alt="" /></div>
+                <div className='text-center flex justify-center gap-4'><img src={dropbox1} className='w-[110px]' alt="" /><img src={drive} className='w-[110px]' alt="" /></div>
                 <div className='font-ScandiaRegular pt-6 leading-tight  tracking-[0.18px] w-60'>Dropbox permite una rápida transferencia y descarga de tu material.</div>
               </div>
               <div className='flex  flex-col items-center'>
