@@ -3,7 +3,7 @@ import panel from '../src/assets/images/Grupo 549.png'
 import wspIcon from '../src/assets/images/whatsapp-1.svg'
 import emailIcon from '../src/assets/images/envelope-at-fill-2.svg'
 import checks from '../src/assets/images/ui-checks.svg'
-import dropbox from '../src/assets/images/dropbox.svg'
+import cloudUpload from '../src/assets/images/cloud-upload.svg'
 import film from '../src/assets/images/film.svg'
 import Grupo3 from '../src/assets/images/Grupo 3.svg'
 import Grupo2 from '../src/assets/images/Grupo 2.svg'
@@ -133,7 +133,7 @@ export const Home = () => {
             <div className='text-lg text-center lg:text-star font-ScandiaRegular'>Hacemos que lo complejo parezca sencillo en muy pocos pasos.</div>
           </div>
           <div className='lg:w-2/3'>
-            <div className='flex flex-col items-center  md:flex-row gap-16 md:gap-8 md:justify-around mt-16 lg:mt-5'>
+            <div className='flex flex-col items-center  md:flex-row lg:gap-2 xl:gap-16 md:gap-8 md:justify-around mt-16 lg:mt-5'>
               <div className='flex flex-col w-full justify-center'>
                 <div className='self-center'><img width={55} height={51} src={checks} alt="" /></div>
                 <div className='flex items-center sm:justify-center justify-start pl-2 gap-6 md:gap-2.5'>
@@ -143,11 +143,11 @@ export const Home = () => {
                 </div>
               </div>
               <div className='flex flex-col w-full justify-center'>
-                <div className='self-center'><img width={59} height={51} src={dropbox} alt="" /></div>
+                <div className='self-center'><img width={54} height={51} src={cloudUpload} alt="" /></div>
                 <div className='flex items-center justify-start sm:px-1 gap-3 md:gap-2.5'>
                   <div className='font-OwnersNarrowBold text-8xl'>2</div>
                   <div className='border-dashed border-2 border-black h-20 w-0'></div>
-                  <div className='w-36 font-ScandiaRegular'>Sube tu material a nuestro Dropbox.</div>
+                  <div className='w-[165px] font-ScandiaRegular'>Transfiere tu material a nuestro Dropbox o Drive.</div>
                 </div>
               </div>
               <div className='flex flex-col justify-center'>
