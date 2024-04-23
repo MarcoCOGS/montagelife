@@ -133,7 +133,7 @@ export const Home = () => {
             <div className='text-lg text-center lg:text-star font-ScandiaRegular'>Hacemos que lo complejo parezca sencillo en muy pocos pasos.</div>
           </div>
           <div className='lg:w-2/3'>
-            <div className='flex flex-col items-center  md:flex-row lg:gap-2 xl:gap-16 md:gap-8 md:justify-around mt-16 lg:mt-5'>
+            <div className='flex flex-col items-center  md:flex-row gap-16 lg:gap-2 xl:gap-16 md:gap-8 md:justify-around mt-16 lg:mt-5'>
               <div className='flex flex-col w-full justify-center'>
                 <div className='self-center'><img width={55} height={51} src={checks} alt="" /></div>
                 <div className='flex items-center sm:justify-center justify-start pl-2 gap-6 md:gap-2.5'>
