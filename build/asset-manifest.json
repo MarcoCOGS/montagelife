@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c86edcb.css",
-    "main.js": "/static/js/main.1d5b7334.js",
+    "main.js": "/static/js/main.2d4ec03b.js",
     "static/js/453.8e930c33.chunk.js": "/static/js/453.8e930c33.chunk.js",
     "static/media/Grupo 549contact.png": "/static/media/Grupo 549contact.d7945241f48019a677e7.png",
     "static/media/Grupo 549.png": "/static/media/Grupo 549.869f28589f918b71513c.png",
@@ -38,11 +38,11 @@
     "static/media/tiktokblack.svg": "/static/media/tiktokblack.8b408e70f4adca1b711df80f837f20e2.svg",
     "static/media/tiktok.svg": "/static/media/tiktok.6f293eaef44f36eff4ffe3f319dc7ee9.svg",
     "main.6c86edcb.css.map": "/static/css/main.6c86edcb.css.map",
-    "main.1d5b7334.js.map": "/static/js/main.1d5b7334.js.map",
+    "main.2d4ec03b.js.map": "/static/js/main.2d4ec03b.js.map",
     "453.8e930c33.chunk.js.map": "/static/js/453.8e930c33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c86edcb.css",
-    "static/js/main.1d5b7334.js"
+    "static/js/main.2d4ec03b.js"
   ]
 }
