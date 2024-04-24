@@ -76,7 +76,7 @@ export const About = () => {
           <div className='lg:hidden flex flex-col items-center mt-8'>
             <img width={376} src={Desplazamient1} alt="" />
             <div className='px-10 lg:px-16 text-start w-[376px] lg:w-full text-2xl font-bold mt-4 text'>Ana Lucía Castañeda</div>
-            <div className='px-10 lg:px-16 text-start w-[376px] lg:w-full text-lg'>Co-Fundadora y Gerente de <br />Marketing y Ventasl</div>
+            <div className='px-10 lg:px-16 text-start w-[376px] lg:w-full text-lg'>Co-Fundadora y Gerente de <br />Marketing y Ventas</div>
           </div>
           <div className='lg:w-3/5 flex flex-col items-center'>
             <div className=' text-lg font-ScandiaRegula bg-[#373737] mt-8 lg:mt-[10%] rounded-xl p-12 text-white max-w-[750px]'>
